@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# 📚 AluraBooks (Versão React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Uma recriação moderna e componentizada da vitrine de livros AluraBooks, desenvolvida inteiramente com React. Este projeto consome uma API para exibir, filtrar e pesquisar livros de programação, aplicando conceitos modernos do ecossistema React para criar uma experiência de usuário fluida e reativa.
 
-## Available Scripts
+## ✨ Funcionalidades
 
-In the project directory, you can run:
+-   **Componentização com React:** A interface foi dividida em componentes reutilizáveis (`Header`, `Pesquisa`, `UltimosLancamentos`), facilitando a manutenção e a escalabilidade.
+-   **Busca de Livros:** Campo de pesquisa interativo que filtra os livros dinamicamente conforme o usuário digita.
+-   **Estilização com Styled Components:** O CSS foi escrito de forma "escopada" para cada componente, evitando conflitos de estilo e tornando o código mais organizado.
+-   **Consumo de API:** Utiliza o `axios` para fazer requisições assíncronas a um endpoint JSON e buscar os dados dos livros.
+-   **Navegação com React Router:** O projeto possui múltiplas páginas (Home, Favoritos, Categorias) com navegação fluida gerenciada pelo `react-router-dom`.
 
-### `npm start`
+## 🛠️ Tecnologias e Conceitos Aplicados
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Este projeto foi uma oportunidade para praticar e demonstrar habilidades no ecossistema React, incluindo:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-   **React:** Biblioteca principal para a construção da interface de usuário.
+-   **Styled Components:** Utilizado para a estilização CSS-in-JS, permitindo criar componentes com seus próprios estilos de forma isolada.
+-   **React Router (`react-router-dom`):** Implementação de um sistema de rotas para navegação entre as diferentes páginas da aplicação (SPA - Single Page Application).
+-   **Hooks do React:** Uso de `useState` para gerenciar o estado dos componentes, como a lista de livros e o termo de busca.
+-   **Requisições HTTP:** Biblioteca `axios` para consumir a API externa de livros de forma assíncrona.
+-   **Estrutura de Projeto:** Organização do código em pastas lógicas (`components`, `routes`, `services`) para uma melhor manutenibilidade.
 
-### `npm test`
+## 🚀 Como Executar o Projeto Localmente
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para rodar este projeto na sua máquina, siga os passos abaixo:
 
-### `npm run build`
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/Vencce/AluraBooks_React.git](https://github.com/Vencce/AluraBooks_React.git)
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2.  **Acesse a pasta do projeto:**
+    ```bash
+    cd AluraBooks_React
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+    *(ou `yarn install` se preferir)*
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4.  **Inicie a aplicação:**
+    ```bash
+    npm start
+    ```
+    *(ou `yarn start`)*
 
-### `npm run eject`
+5.  **Acesse no navegador:**
+    Abra seu navegador e acesse `http://localhost:3000`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto é uma evolução do [AluraBooks em JavaScript puro](link-para-o-outro-repositorio-se-quiser), agora aplicando as melhores práticas do desenvolvimento com React. Desenvolvido por [Vitor Ferreira](https://github.com/Vencce).
