@@ -8,7 +8,6 @@ Uma recriação moderna e componentizada da vitrine de livros AluraBooks, desenv
 -   **Busca de Livros:** Campo de pesquisa interativo que filtra os livros dinamicamente conforme o usuário digita.
 -   **Estilização com Styled Components:** O CSS foi escrito de forma "escopada" para cada componente, evitando conflitos de estilo e tornando o código mais organizado.
 -   **Consumo de API:** Utiliza o `axios` para fazer requisições assíncronas a um endpoint JSON e buscar os dados dos livros.
--   **Navegação com React Router:** O projeto possui múltiplas páginas (Home, Favoritos, Categorias) com navegação fluida gerenciada pelo `react-router-dom`.
 
 ## 🛠️ Tecnologias e Conceitos Aplicados
 
@@ -16,7 +15,6 @@ Este projeto foi uma oportunidade para praticar e demonstrar habilidades no ecos
 
 -   **React:** Biblioteca principal para a construção da interface de usuário.
 -   **Styled Components:** Utilizado para a estilização CSS-in-JS, permitindo criar componentes com seus próprios estilos de forma isolada.
--   **React Router (`react-router-dom`):** Implementação de um sistema de rotas para navegação entre as diferentes páginas da aplicação (SPA - Single Page Application).
 -   **Hooks do React:** Uso de `useState` para gerenciar o estado dos componentes, como a lista de livros e o termo de busca.
 -   **Requisições HTTP:** Biblioteca `axios` para consumir a API externa de livros de forma assíncrona.
 -   **Estrutura de Projeto:** Organização do código em pastas lógicas (`components`, `routes`, `services`) para uma melhor manutenibilidade.
